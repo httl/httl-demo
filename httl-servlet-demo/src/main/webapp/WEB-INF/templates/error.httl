@@ -1,0 +1,6 @@
+<!--#var(Exception exception)-->
+<html>
+<body>
+	${exception.message}
+</body>
+</html>
