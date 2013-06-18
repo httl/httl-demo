@@ -19,7 +19,7 @@ public class BooksController {
 	@RequestMapping("/books")
 	public String books(Map<String, Object> context) throws Exception {
 		context.put("books", bookService.findBooks());
-		return "books.httl";
+		return "books";
 	}
 
 }
