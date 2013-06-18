@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>httl</groupId>
+	<artifactId>httl-demo</artifactId>
+	<version>1.0.10</version>
+	<packaging>pom</packaging>
+	<name>HTTL Demo</name>
+	<modules>
+		<module>httl-servlet-demo</module>
+		<module>httl-springmvc-demo</module>
+		<module>httl-struts-demo</module>
+	</modules>
+	<repositories>
+		<repository>
+			<id>httl-repository</id>
+			<name>Httl Repository</name>
+			<url>http://httl.oskpi.io/maven</url>
+		</repository>
+	</repositories>
+</project>
