@@ -1,0 +1,31 @@
+
+<html>
+<body>
+	<p>HTTL nutz Demo</p>
+	<p>${header.userAgent}</p>
+	<!--#if(books)-->
+	<table>
+		<tr>
+			<td>序号</td>
+			<td>${"book.title".message}</td>
+			<td>作者</td>
+			<td>出版商</td>
+			<td>定价</td>
+			<td>折扣</td>
+
+		</tr>
+		<!--#foreach(com.demo.domain.Book book in books)-->
+		<tr>
+			<td>${foreach.count}</td>
+			<td>${book.title}</td>
+			<td>${book.author}</td>
+			<td>${book.publisher}</td>
+			<td>${book.price}</td>
+			<td>${book.discount}%</td>
+			
+		</tr>
+		<!--#end-->
+	</table>
+	<!--#end-->
+</body>
+</html>

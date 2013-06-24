@@ -3,23 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>httl</groupId>
-	<artifactId>httl-springmvc-demo</artifactId>
+	<artifactId>httl-jfinal-demo</artifactId>
 	<version>1.0.10</version>
 	<packaging>war</packaging>
-	<name>HTTL SpringMVC Demo</name>
+	<name>HTTL JFinal Demo</name>
 	<properties>
 		<wtpversion>1.5</wtpversion>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>httl</groupId>
-			<artifactId>httl-springmvc</artifactId>
+			<artifactId>httl-jfinal</artifactId>
 			<version>1.0.10</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>3.0.6.RELEASE</version>
 		</dependency>
 	</dependencies>
 	<repositories>

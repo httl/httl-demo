@@ -10,12 +10,14 @@
 		<module>httl-servlet-demo</module>
 		<module>httl-springmvc-demo</module>
 		<module>httl-struts-demo</module>
+		<module>httl-jfinal-demo</module>
+		<module>httl-nutz-demo</module>
 	</modules>
 	<repositories>
 		<repository>
 			<id>httl-repository</id>
 			<name>Httl Repository</name>
-			<url>http://httl.oskpi.io/maven</url>
+			<url>http://httl.github.io/maven</url>
 		</repository>
 	</repositories>
 </project>

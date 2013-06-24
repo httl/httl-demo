@@ -50,7 +50,7 @@
 		<repository>
 			<id>httl-repository</id>
 			<name>Httl Repository</name>
-			<url>http://httl.oskpi.io/maven</url>
+			<url>http://httl.github.io/maven</url>
 		</repository>
 	</repositories>
 	<build>

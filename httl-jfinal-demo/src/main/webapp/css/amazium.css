@@ -1,0 +1,249 @@
+/* 
+* Amazium V1.3
+* Copyright 2012, Mike Ballan
+* www.amazium.co.uk
+*/
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+
+/*****自动缩放图片，兼容所有浏览器*****/
+.auto-img img{MAX-WIDTH: 100%!important;HEIGHT: auto!important;}
+
+
+/***** Screen 960px *****/
+.grid 								{ margin:0 auto; width:960px; overflow:hidden; }
+.row 								{ margin:0 auto; width:960px; overflow:hidden; }
+.row .row 							{ margin:0 -6px 0 -6px; width:auto; display:inline-block; }
+
+.cell1								{ width:68px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell2 							{ width:148px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell3 							{ width:228px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell4 							{ width:308px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell5 							{ width:388px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }		
+.cell6 							{ width:468px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell7 							{ width:548px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell8 							{ width:628px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell9								{ width:708px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell10							{ width:788px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell11							{ width:868px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+.cell12							{ width:948px; margin:0 6px 0 6px; overflow:hidden; float:left; display:inline; }
+	
+.offset1							{ margin-left:86px; }
+.offset2							{ margin-left:166px; }
+.offset3 							{ margin-left:246px; }
+.offset4 							{ margin-left:326px; }
+.offset5 							{ margin-left:406px; }
+.offset6 							{ margin-left:486px; }
+.offset7 							{ margin-left:566px; }
+.offset8 							{ margin-left:646px; }
+.offset9							{ margin-left:726px; }
+.offset10							{ margin-left:806px; }
+.offset11							{ margin-left:886px; }
+
+.show-phone 						{ display:none !important; }
+.show-tablet 						{ display:none !important; }
+.show-screen						{ display:inherit !important; }
+	
+.hide-phone							{ display:inherit !important; }
+.hide-tablet						{ display:inherit !important; }
+.hide-screen						{ display:none !important; }
+
+
+
+/***** Screen Bigger than 960px *****/
+@media only screen and (min-width:1200px) {
+.grid 								{ margin:0 auto; width:1200px; overflow:hidden; }
+.row 								{ margin:0 auto; width:1200px; overflow:hidden; }
+.row .row 							{ margin:0 -8px 0 -8px; width:auto; display:inline-block; }
+
+.cell1								{ width:84px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell2 							{ width:184px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell3 							{ width:284px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell4 							{ width:384px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell5 							{ width:484px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }		
+.cell6 							{ width:584px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell7 							{ width:684px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell8 							{ width:784px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell9								{ width:884px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell10							{ width:984px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell11							{ width:1084px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+.cell12							{ width:1184px; margin:0 8px 0 8px; overflow:hidden; float:left; display:inline; }
+
+.offset1							{ margin-left:108px; }
+.offset2							{ margin-left:208px; }
+.offset3 							{ margin-left:308px; }
+.offset4 							{ margin-left:408px; }
+.offset5 							{ margin-left:508px; }
+.offset6 							{ margin-left:608px; }
+.offset7 							{ margin-left:708px; }
+.offset8 							{ margin-left:808px; }
+.offset9							{ margin-left:908px; }
+.offset10							{ margin-left:1008px; }
+.offset11							{ margin-left:1108px; }
+
+.show-phone 						{ display:none !important; }
+.show-tablet 						{ display:none !important; }
+.show-screen						{ display:inherit; }
+
+.hide-phone							{ display:inherit !important; }
+.hide-tablet						{ display:inherit !important; }
+.hide-screen						{ display:none !important; }
+
+}
+
+
+
+/***** Tablet (Smaller than 959px) *****/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+.grid 								{ margin:0 auto; width:768px; overflow:hidden; }
+.row 								{ margin:0 auto; width:768px; overflow:hidden; }
+.row .row 							{ margin:0 -4px 0 -4px; width:auto; display:inline-block; }
+		
+.cell1								{ width:56px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell2 							{ width:120px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell3 							{ width:184px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell4 							{ width:248px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell5 							{ width:312px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }		
+.cell6 							{ width:376px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell7 							{ width:440px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell8 							{ width:504px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell9								{ width:568px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell10							{ width:632px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell11							{ width:696px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+.cell12							{ width:760px; margin:0 4px 0 4px; overflow:hidden; float:left; display:inline; }
+		
+.offset1							{ margin-left:68px; }
+.offset2							{ margin-left:132px; }
+.offset3 							{ margin-left:196px; }
+.offset4 							{ margin-left:260px; }
+.offset5 							{ margin-left:324px; }
+.offset6 							{ margin-left:388px; }
+.offset7 							{ margin-left:452px; }
+.offset8 							{ margin-left:516px; }
+.offset9							{ margin-left:580px; }
+.offset10							{ margin-left:644px; }
+.offset11							{ margin-left:708px; }
+	
+.show-phone 						{ display:none !important; }
+.show-tablet 						{ display:inherit !important; }
+.show-screen						{ display:none !important; }
+	
+.hide-phone							{ display:inherit !important; }
+.hide-tablet						{ display:none !important; }
+.hide-screen						{ display:inherit !important; }
+	
+}
+
+
+
+/***** Phone (portrait 300px) *****/
+@media only screen and (max-width: 767px) {
+
+.grid 								{ margin:0 auto; width:300px; overflow:hidden; }
+.row 								{ margin:0 auto; width:300px; overflow:hidden; }
+.row .row 							{ margin:0; width:auto; display:inline-block; }
+		
+.cell1,
+.cell2,
+.cell3,
+.cell4,
+.cell5,
+.cell6,
+.cell7,
+.cell8,
+.cell9,
+.cell10,
+.cell11,
+.cell12							{ width:300px; margin:10px 0 0 0; overflow:hidden; float:left; display:inline; }
+
+.offset1,
+.offset2,
+.offset3,
+.offset4,
+.offset5,
+.offset6,
+.offset7,
+.offset8,
+.offset9,
+.offset10,
+.offset11							{ margin-left:0; }
+
+.show-phone 						{ display:inherit !important; }
+.show-tablet 						{ display:none !important; }
+.show-screen						{ display:none !important; }
+	
+.hide-phone							{ display:none !important; }
+.hide-tablet						{ display:inherit !important; }
+.hide-screen						{ display:inherit !important; }
+			
+}	 
+
+
+
+
+/***** Phone (landscape 420px) *****/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.grid 								{ margin:0 auto; width:456px; overflow:hidden; }
+.row 								{ margin:0 auto; width:456px; overflow:hidden; }
+.row .row 							{ margin:0; width:auto; display:inline-block; }
+	
+.cell1,
+.cell2,
+.cell3,
+.cell4,
+.cell5,
+.cell6,
+.cell7,
+.cell8,
+.cell9,
+.cell10,
+.cell11,
+.cell12							{ width:456px; margin:10px 0 0 0; overflow:hidden; float:left; display:inline; }
+
+.show-phone 						{ display:inherit !important; }
+.show-tablet 						{ display:none !important; }
+.show-screen						{ display:none !important; }
+	
+.hide-phone							{ display:none !important; }
+.hide-tablet						{ display:inherit !important; }
+.hide-screen						{ display:inherit !important; }
+
+}
+
+
+
+
+/***** Clean up *****/
+
+.container:after 					{ content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; } 
+.clearfix:before,
+.clearfix:after,
+.grid:before,
+.grid:after,
+.row:before,
+.row:after 							{ content:'\0020'; display:block; overflow:hidden; visibility:hidden; width:0; height:0; }
+.row:after,	.clearfix:after 		{ clear:both; }
+.row, 
+.clearfix 							{ zoom:1; }
+.clear 								{ clear:both; display:block; overflow:hidden; visibility:hidden; width:0; height:0;	}

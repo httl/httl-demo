@@ -1,0 +1,37 @@
+body{
+	background-image:url(images/bg.gif);
+	background-repeat:repeat-x;
+	background-color:#EEF9FF;
+	}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.menu div {
+  font-weight: bold;
+  height: 30px;
+}
+
+.div-sep{ min-height: 10px; }
+.div-top{min-height: 50px; background:#2980B9;color:#fff;}
+
+.div-left{min-height: 180px; background:#BDC3C7;}
+
+.div-main{min-height: 180px; background:#ECF0F1;color:#bdc3c7;}
+
+.div-footer{min-height: 50px;background:#2980B9;color:#fff;}
