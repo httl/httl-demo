@@ -4,7 +4,7 @@
     <groupId>com.github.httl</groupId>
     <artifactId>httl-servlet-demo</artifactId>
     <packaging>war</packaging>
-    <version>1.0.10</version>
+    <version>1.0.11</version>
     <name>HTTL Servlet Demo</name>
     <properties>
 		<wtpversion>1.5</wtpversion>
@@ -13,7 +13,12 @@
         <dependency>
             <groupId>com.github.httl</groupId>
             <artifactId>httl-servlet</artifactId>
-            <version>1.0.10</version>
+            <version>1.0.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.15.0-GA</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>

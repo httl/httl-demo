@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.httl</groupId>
 	<artifactId>httl-jfinal-demo</artifactId>
-	<version>1.0.10</version>
+	<version>1.0.11</version>
 	<packaging>war</packaging>
 	<name>HTTL JFinal Demo</name>
 	<properties>
@@ -14,7 +14,7 @@
 		<dependency>
 			<groupId>com.github.httl</groupId>
 			<artifactId>httl-jfinal</artifactId>
-			<version>1.0.10</version>
+			<version>1.0.11</version>
 		</dependency>
 	</dependencies>
 	<repositories>
