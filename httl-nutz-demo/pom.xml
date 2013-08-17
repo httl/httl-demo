@@ -16,6 +16,12 @@
 			<artifactId>httl-nutz</artifactId>
 			<version>1.0.11</version>
 		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>

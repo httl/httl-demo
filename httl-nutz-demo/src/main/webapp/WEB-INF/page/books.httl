@@ -1,4 +1,4 @@
-
+<!--#set(List<Book> books)-->
 <html>
 <body>
 	<p>HTTL nutz Demo</p>
@@ -14,9 +14,9 @@
 			<td>折扣</td>
 
 		</tr>
-		<!--#foreach(com.demo.domain.Book book in books)-->
+		<!--#for(com.demo.domain.Book book : books)-->
 		<tr>
-			<td>${foreach.count}</td>
+			<td>${for.count}</td>
 			<td>${book.title}</td>
 			<td>${book.author}</td>
 			<td>${book.publisher}</td>
